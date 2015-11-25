@@ -13,6 +13,14 @@
 		F6A0BCB91C0583B100AC1D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCB71C0583B100AC1D07 /* Main.storyboard */; };
 		F6A0BCBB1C0583B100AC1D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCBA1C0583B100AC1D07 /* Assets.xcassets */; };
 		F6A0BCBE1C0583B100AC1D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCBC1C0583B100AC1D07 /* LaunchScreen.storyboard */; };
+		F6A0BCC81C0584A600AC1D07 /* HNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A0BCC61C0584A600AC1D07 /* HNLoginViewController.m */; };
+		F6A0BCC91C0584A600AC1D07 /* HNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCC71C0584A600AC1D07 /* HNLoginViewController.xib */; };
+		F6A0BCCD1C0584C500AC1D07 /* hn-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCCA1C0584C500AC1D07 /* hn-logo@2x.png */; };
+		F6A0BCCE1C0584C500AC1D07 /* rounded_table_cell_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCCB1C0584C500AC1D07 /* rounded_table_cell_top@2x.png */; };
+		F6A0BCCF1C0584C500AC1D07 /* rounded_table_cell_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A0BCCC1C0584C500AC1D07 /* rounded_table_cell_bottom@2x.png */; };
+		F6A0BCD31C0584F200AC1D07 /* UIViewController+HNOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A0BCD21C0584F200AC1D07 /* UIViewController+HNOverlay.m */; };
+		F6A0BCD81C05852700AC1D07 /* HNService.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A0BCD51C05852700AC1D07 /* HNService.m */; };
+		F6A0BCD91C05852700AC1D07 /* HNLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A0BCD71C05852700AC1D07 /* HNLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,18 @@
 		F6A0BCBA1C0583B100AC1D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6A0BCBD1C0583B100AC1D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6A0BCBF1C0583B100AC1D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A0BCC51C0584A600AC1D07 /* HNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNLoginViewController.h; sourceTree = "<group>"; };
+		F6A0BCC61C0584A600AC1D07 /* HNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNLoginViewController.m; sourceTree = "<group>"; };
+		F6A0BCC71C0584A600AC1D07 /* HNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNLoginViewController.xib; sourceTree = "<group>"; };
+		F6A0BCCA1C0584C500AC1D07 /* hn-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hn-logo@2x.png"; sourceTree = "<group>"; };
+		F6A0BCCB1C0584C500AC1D07 /* rounded_table_cell_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded_table_cell_top@2x.png"; sourceTree = "<group>"; };
+		F6A0BCCC1C0584C500AC1D07 /* rounded_table_cell_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded_table_cell_bottom@2x.png"; sourceTree = "<group>"; };
+		F6A0BCD11C0584F200AC1D07 /* UIViewController+HNOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HNOverlay.h"; sourceTree = "<group>"; };
+		F6A0BCD21C0584F200AC1D07 /* UIViewController+HNOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HNOverlay.m"; sourceTree = "<group>"; };
+		F6A0BCD41C05852700AC1D07 /* HNService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNService.h; sourceTree = "<group>"; };
+		F6A0BCD51C05852700AC1D07 /* HNService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNService.m; sourceTree = "<group>"; };
+		F6A0BCD61C05852700AC1D07 /* HNLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNLogin.h; sourceTree = "<group>"; };
+		F6A0BCD71C05852700AC1D07 /* HNLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNLogin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +78,19 @@
 		F6A0BCAD1C0583B100AC1D07 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
+				F6A0BCD41C05852700AC1D07 /* HNService.h */,
+				F6A0BCD51C05852700AC1D07 /* HNService.m */,
+				F6A0BCD61C05852700AC1D07 /* HNLogin.h */,
+				F6A0BCD71C05852700AC1D07 /* HNLogin.m */,
+				F6A0BCD11C0584F200AC1D07 /* UIViewController+HNOverlay.h */,
+				F6A0BCD21C0584F200AC1D07 /* UIViewController+HNOverlay.m */,
 				F6A0BCB11C0583B100AC1D07 /* AppDelegate.h */,
 				F6A0BCB21C0583B100AC1D07 /* AppDelegate.m */,
 				F6A0BCB41C0583B100AC1D07 /* ViewController.h */,
 				F6A0BCB51C0583B100AC1D07 /* ViewController.m */,
+				F6A0BCC51C0584A600AC1D07 /* HNLoginViewController.h */,
+				F6A0BCC61C0584A600AC1D07 /* HNLoginViewController.m */,
+				F6A0BCC71C0584A600AC1D07 /* HNLoginViewController.xib */,
 				F6A0BCB71C0583B100AC1D07 /* Main.storyboard */,
 				F6A0BCBA1C0583B100AC1D07 /* Assets.xcassets */,
 				F6A0BCBC1C0583B100AC1D07 /* LaunchScreen.storyboard */,
@@ -74,9 +103,20 @@
 		F6A0BCAE1C0583B100AC1D07 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6A0BCD01C0584CA00AC1D07 /* Images */,
 				F6A0BCAF1C0583B100AC1D07 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A0BCD01C0584CA00AC1D07 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0BCCA1C0584C500AC1D07 /* hn-logo@2x.png */,
+				F6A0BCCB1C0584C500AC1D07 /* rounded_table_cell_top@2x.png */,
+				F6A0BCCC1C0584C500AC1D07 /* rounded_table_cell_bottom@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +177,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A0BCC91C0584A600AC1D07 /* HNLoginViewController.xib in Resources */,
+				F6A0BCCE1C0584C500AC1D07 /* rounded_table_cell_top@2x.png in Resources */,
 				F6A0BCBE1C0583B100AC1D07 /* LaunchScreen.storyboard in Resources */,
 				F6A0BCBB1C0583B100AC1D07 /* Assets.xcassets in Resources */,
+				F6A0BCCF1C0584C500AC1D07 /* rounded_table_cell_bottom@2x.png in Resources */,
+				F6A0BCCD1C0584C500AC1D07 /* hn-logo@2x.png in Resources */,
 				F6A0BCB91C0583B100AC1D07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A0BCC81C0584A600AC1D07 /* HNLoginViewController.m in Sources */,
+				F6A0BCD81C05852700AC1D07 /* HNService.m in Sources */,
 				F6A0BCB61C0583B100AC1D07 /* ViewController.m in Sources */,
+				F6A0BCD91C05852700AC1D07 /* HNLogin.m in Sources */,
+				F6A0BCD31C0584F200AC1D07 /* UIViewController+HNOverlay.m in Sources */,
 				F6A0BCB31C0583B100AC1D07 /* AppDelegate.m in Sources */,
 				F6A0BCB01C0583B100AC1D07 /* main.m in Sources */,
 			);
